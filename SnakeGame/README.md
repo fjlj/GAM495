@@ -1,4 +1,7 @@
 
+
+https://user-images.githubusercontent.com/24780/174604200-24085e3e-3077-4c44-8295-aa6f2c305355.mp4
+
 ---
 ### Planning
 1. What is the game of snake? 
