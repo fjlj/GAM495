@@ -1,0 +1,229 @@
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  height:12vh;
+  position:relative:
+  top:1vh;
+}
+
+li {
+  display: table-caption;
+}
+
+html, body, table
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 5px;
+  margin: calc(-3vw + 2vh) 0 0;
+  overflow-x: hidden;
+}
+
+table {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+  width:100%;
+  overflow-x:clip;
+}
+
+td {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  display:none;
+}
+#numDecks {
+  padding-top: 15vh;
+  display:none;
+}
+
+p {
+  font-size: 2vw;
+}
+
+#numDecks button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius:9px;
+}
+
+#main td {
+  width:2000px;
+}
+
+#discard {
+  height: calc(5vh + 10vw);;
+}
+
+#hand4 {
+  height: calc(5vh + 12vw);
+}
+
+#drawPile {
+  height: calc(5vh + 10vw);
+}
+
+.cardT {
+  width: 6vw;
+  border: 1px solid black;
+  height: 8vw;
+  text-align: left;
+  background: #eff;
+}
+
+label {
+  display: inline-block;
+  width: 165px;
+  margin-bottom: 10px;
+}
+
+input {
+  width:75px;
+}
+
+.splitActive {
+  background-image: -webkit-linear-gradient(left, darkgreen 3%,azure 1%, azure 97%, darkgreen 5%,darkgreen 100%);
+  height:calc(5vh + 3vw);
+  position:relative;
+  top:-3vh;
+  margin-top:10vh;
+  left:0.25vh;
+}
+
+.split.splitActive {
+  background-image: -webkit-linear-gradient(left, darkgreen 2%,azure 1%, azure 45%, darkgreen 10%, darkgreen 47% , transparent 5%, transparent 100%);
+  height:calc(5vh + 2vw);
+  position:relative;
+  top:-4vh
+}
+
+ul .cardT {
+  width:6vw;
+  margin-left:0.15vw;
+}
+
+ul .cardT:nth-child(n+2){
+  width:6vw;
+  margin-left:-3vw;
+}
+
+#feedback {
+  min-height: 5vh;
+  max-height: 5vh;
+  text-align: center;
+  text-indent:-25px;
+  padding: 0;
+  font-size: calc(1.25vh + 1.5vw);
+}
+/*
+#hand4O {
+  min-height:20vh;
+}*/
+
+.split {
+  display:none;
+  height:4vw;
+}
+
+.hand {
+  height: 35vh;
+  border: 5px inset thistle;
+}
+
+.selHand {
+  border: 5px dotted deepskyblue;
+}
+
+.bamnt {
+  text-align: center;
+  position:relative;
+  bottom:calc(2vw - 4vh);
+}
+
+.bamnt.split {
+  bottom:calc(2vw - 5vh);
+}
+
+.bet {
+  height: 3vh;
+  text-align:center;
+  padding-top:calc(0.5vh + 0.5vw);
+}
+
+.botRow {
+  height:10vh;
+}
+.dcard {
+  width: 6vw;
+  border: 1px solid black;
+  height: 8vw;
+  text-align: left;
+  background: #eff;
+}
+
+.curHand {
+  /*background: azure;
+  border: 1px solid crimson;*/
+      background-image: -webkit-linear-gradient(left, mediumspringgreen 2%,azure 1%, azure 45%, mediumspringgreen 10%,mediumspringgreen 47% ,transparent 5%,transparent 100%);
+}
+
+#dealer_tot {
+  text-indent: -35vw;
+  padding-top: 6vw;
+}
+
+#card-gone{
+  position:absolute;
+}
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+	  font-size: calc(0.5vh + 2.8vw);
+	  top: calc(-0.5vw + -0.5vh);
+	  position:relative;
+}
+
+#total_bet {
+	top:calc((-0.4vw + -0.5vh) - 3.vh);
+}
+
+#playerBalanceRow button {
+  margin-left: calc(0.85vw - 0.65vh);
+  padding-right: calc(0.1vw + 0.65vh);
+  height:3.25vw;
+  font-max-size: xx-large;
+  font-size: 2vw;
+  background-color: dodgerblue;
+  border: 0.05em solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius:9px;
+}
+
+#playerBalanceRow button:hover {
+  border: 0.05em solid cadetblue;
+}
+
+.selBet {
+  border: 0.05em solid cadetblue !important;
+}
+
+#playerBalanceRow button:nth-child(2) {
+  margin-left: calc(11vw - 5vh)
+}
+
+#playerBalanceRow button:nth-child(6) {
+  margin-left: calc(13.5vw - 5.75vh)
+}
