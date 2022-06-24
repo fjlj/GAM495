@@ -71,4 +71,5 @@ https://user-images.githubusercontent.com/24780/174604200-24085e3e-3077-4c44-829
 
 ### Conclusion and the Future
  * I learned quite a lot in the journey of creating a simple console version of snake. I have a much bigger appreciation for being able to define pixels or tiles within a game screen, having the control over colors and freedom to define areas of a buffer as zones is a bit more intuative than dealing with ASCII characters alone. 
-   - I play to add sound and a configurable ```high scores``` (online/offline) tracking for those who want to see how they compare to everyone else, or just their friends/family... (yes I know it is just a simple snake game and doesnt really need this.. its about learning).. :)
+   - I plan to add sound and a configurable ```high scores``` (online/offline) tracking for those who want to see how they compare to everyone else, or just their friends/family... (yes I know it is just a simple snake game and doesnt really need this.. its about learning).. :)
+   - I am also working on a half float and machine learning algorithm implementation within the [Linux](/SnakeGame/Linux/) version of the game. This is a large learning opportunity for many future projects.
