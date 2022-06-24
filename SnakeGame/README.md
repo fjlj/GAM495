@@ -78,4 +78,4 @@ https://user-images.githubusercontent.com/24780/174604200-24085e3e-3077-4c44-829
 
 ---
 
-[Home](/)
+[Home](..)

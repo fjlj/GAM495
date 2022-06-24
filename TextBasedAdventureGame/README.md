@@ -6,4 +6,4 @@
 
 ---
 
-[Home](/README.md)
+[Home](..)
