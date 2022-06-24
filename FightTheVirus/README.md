@@ -77,3 +77,10 @@ This was a fantastic project and we all had a lot of fun working on it, learning
 ### References
 * [Original project BitBucket](https://bitbucket.org/douglasmcmann/project_repo)
 * [Original project WiKi](https://bitbucket.org/douglasmcmann/project_repo/wiki)
+
+
+<br>
+
+---
+
+[Home](/README.md)
