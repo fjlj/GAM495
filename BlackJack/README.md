@@ -1,4 +1,7 @@
 ## Web-Based Multi-hand BlackJack
+![Big Win](ScreenShots/bj2.png)
+
+---
 ### Planning
  1. A mechanism to generate a draw pile of ```N``` number of decks
  2. Player object (position, bet, hand, split?)

@@ -1,5 +1,7 @@
 ## Unreal Engine FPS Game
+![Boss Battle](ScreenShots/FtV.png)
 
+---
 ### Premise
 The FPS game follows the journey of the main protagonist being shrunken down to a miniature size and inserted into the human body to fight off an unnamed virus, essentially becoming an overpowered T-Cell. There are three different types of NPCs: Passive, Cooperative, and Aggressive. The Passive & Cooperative NPCs are red and white blood cells respectively, with aggressive NPCs being the unnamed virus.
 
