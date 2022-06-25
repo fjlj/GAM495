@@ -50,7 +50,7 @@
 ---
 
 # Self-Assessment Notes
-- Each project presents various skills, 2D/3D, Algorithms, Complex problem solving, Game Engine/Interface Development, Physics, and more... Each project discusses the project, the challenges, the solutions, takeaways and future development plans based around those lessons learned.
+- Each project is able to be browsed for additional information where they present various skills in 2D/3D, Algorithms, Complex problem solving, Game Engine/Interface Development, Physics, and more... Each project discusses the planning, the challenges, the solutions, takeaways and future development plans based around those lessons learned.
 
 - My primary takeaway from years of programming, is not a speech on staying relevant by trying new languages, platforms, styles, or areas of development. Rather, that if you have sound principles in logic and a vast understanding of mathematics, data structures, how information is utilized by various hardware... The language and platform matters very litte, what matters the most is that you continue to challenge yourself to find the limits of any language or platform you are using; then try to fix/improve those limitations. Challenge yourself to create something with strange constrictions, force yourself to be creative to solve problems. Not because an optimal solution does not already exist... but because true understanding comes from knowing the why behind the answers.
 
