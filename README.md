@@ -46,3 +46,20 @@
 - Right clicking a player position will subtract the selected bet amount
 - Players may bet until "Place your bets" timer has ended. 
 - Live Demo: [Play BlackJack](https://fjlj.xyz)
+
+---
+
+# Self-Assessment Notes
+- Each project presents various skills, 2D/3D, Algorithms, Complex problem solving, Game Engine/Interface Development, Physics, and more... Each project discusses the project, the challenges, the solutions, takeaways and future development plans based around those lessons learned.
+
+- My primary takeaway from years of programming, is not a speech on staying relevant by trying new languages, platforms, styles, or areas of development. Rather, that if you have sound principles in logic and a vast understanding of mathematics, data structures, how information is utilized by various hardware... The language and platform matters very litte, what matters the most is that you continue to challenge yourself to find the limits of any language or platform you are using; then try to fix/improve those limitations. Challenge yourself to create something with strange constrictions, force yourself to be creative to solve problems. Not because an optimal solution does not already exist... but because true understanding comes from knowing the why behind the answers.
+
+- I am not attempting to minimize the importance of staying relevant, rather I want to reframe the thinking around how to stay relevant. Staying up to date with industry standards as well as any updates to the languages you are working with, or the latest trends on how to best accomplish goals with the language you are using; sets you up with the habbits to not only stay relevant in one field/language, but to quickly gain relevance in any field/language.
+
+- This portfolio is a rather small snippet of over 25 years of personal programming and development experience. Through the years the programming, development, hacking forums and videos have been massively helpful and informative. The information age is able to grow and evolve much faster than traditional learning and coursework. A formal education in software engineering or development should not be looked at as an education in learning to engineer or develop software/games, rather it should be viewed as a platform to teach you how to think like an engineer/developer. Provide you the tools, platform, and practice to be able to effectively start your own journey in learning and self-development.
+
+- I am presently diving into machine learning, neural networks, augmented topologies, re-enforcement learning, genetic algorithms, and AI. What will your next adventure be?
+
+**Thank You**,
+
+Frank Lewis
