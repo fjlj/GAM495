@@ -523,7 +523,8 @@ commands = {'go': move_player, 'take': take_item, 'use': use, 'walk': move_playe
             'quit': quit_game, 'exit': quit_game, 'examine': examine, 'break': break_item,
             'run': run_away, 'flee': run_away, 'x': examine, 'n': move_player, 'e': move_player,
             's': move_player, 'w': move_player, 't': take_item, 'u': use, 'q': quit_game, 
-            'h': show_help, 'help': show_help, 'c':show_help, 'commands':show_help}
+            'h': show_help, 'help': show_help, 'c':show_help, 'commands':show_help, 'attack':use,
+            'a':use}
 
 
 def check_win_lose(room):
@@ -556,7 +557,7 @@ def print_room_info(pos, extra=""):
             return
 
         # used to move the player back to their previous position with a message as to why they could not enter yet...
-        #TODO generalize this to account for all items required as listed, call messages from a map.
+        #TODO generalize this to account for all items required as listed, call messages from a dictionary.
         if not all(x in flags['player_inventory'] for x in room['keys']):
             if 'candle' in room['keys']:
                 print("Woa! It is much too dark to go into that room!")
@@ -591,11 +592,16 @@ def process_command(command):
         if len(command) < 2:  # single word command just gets looked up and called with the single word as a parameter (used for usage msg)
             return commands[command[0]](command[0])
         elif len(command) > 2:  # 3 or more word commands
-            if command[0] in ['use', 'u']:  # check to see if multiple word item on an object or a single word item on a multiple word enemy
-                if " ".join(command[1:3]) in flags['player_inventory']:
+            if command[0] in ['use', 'u','a','attack']:  # check to see if multiple word item on an object or a single word item on a multiple word enemy
+                if " ".join(command[3:]) in flags['player_inventory']:
+                    return commands[command[0]](" ".join(command[3:]), " ".join(command[1:3]))
+                elif " ".join(command[1:3]) in flags['player_inventory']:
                     return commands[command[0]](" ".join(command[1:3]), " ".join(command[3:]))
                 else:
-                    return commands[command[0]](command[1], " ".join(command[2:]))
+                    order = [command[1], " ".join(command[2:])]
+                    if command[0] in ['a','attack']:
+                        order.reverse()
+                    return commands[command[0]](order[0],order[1])
             else:  # likely not going to end up here.. however if they do... the command at worst will display failed message..
                 return commands[command[0]](" ".join(command[1:]))
         else:  # 2 word commands... call the command with the second word as argument.
@@ -634,7 +640,7 @@ def begin_game():
         print("type \'help\' for a list of commands\n")
         print_room_info(pos)
         if not flags['game_over'] and flags['level'] == flags['last_pos']['l']:
-            command = input("Enter your command:").lower().replace("on ", "").replace('with ', '').split()
+            command = input("Enter your command:").lower().replace(" on ", " ").replace(' with ', ' ').split()
             if command:
                 clear_after = process_command(command)
                 if len(clear_after) > 0:
